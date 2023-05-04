@@ -9,7 +9,8 @@
 # 5. Let's try pull/push files to the repository.
 # 6. This step, we can revise the .yml file, core file for actions, from ~
 # 7. Because I hope to test the .py file, we should revise the .yml again.
-# 8. PUSH
+# 8. PUSH~ OK~ Let's see what happen~ Seems great~
+#    Let's test again~
 
 # Step1. PULL files from GitHub
 #   git init
@@ -17,6 +18,7 @@
 #   git pull origin main
 
 # Step2. PUSH (updated) files to GitHub
+#   git checkout -b main
 #   git add .
 #   git commit -m 'first version'
 #   git push origin main
@@ -34,7 +36,7 @@ def test_2():
     assert a < b
 
 
-# def test_3():
-#     a = 2 + 2
-#     b = 4 + 4
-#     assert a == b
+def test_3():
+    a = 2 + 2
+    b = 4 + 4
+    assert a == b
